@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Register{% endblock %}
+
+{% block body %}
+    <div class="container" style="height: calc(100vh - 96px)">
+        <div class="row h-100 align-items-center">
+            <div class="col-12 offset-0 col-md-6 offset-md-3 shadow p-3">
+                <img src="https://souscriptions.la-finance.fr/assets/img/logonew.png" alt="" width="85px">
+                <hr>
+
+                <form name="registration_form" method="post">
+                    <div>
+                        <input type="text" id="registration_form_email" name="registration_form[email]" required="required" class="form-control" maxlength="180" placeholder="Votre adresse mail...">
+                    </div>
+                    <div class="mt-3">
+                        <input type="password" id="registration_form_plainPassword" name="registration_form[plainPassword]" class="form-control" required="required"  placeholder="Votre mot de passe">
+                    </div>
+                    <div>
+                        <label for="registration_form_agreeTerms" class="required">J'accepte les CGU</label>
+                        <input type="checkbox" id="registration_form_agreeTerms" name="registration_form[agreeTerms]" required="required" value="1">
+                    </div>
+
+                    <button class="btn btn-sm btn-primary rounded-0 mt-3 w-100">Créer le compte</button>
+                    {{ form_widget(registrationForm._token) }}
+                </form>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}

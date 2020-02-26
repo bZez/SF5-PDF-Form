@@ -1,0 +1,427 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container-fluid">
+        <div class="row bg-light align-items-center border-bottom text-center">
+            {% for key,val in app.session('categories') %}
+                {% if 'phy' in val %}
+                    <div class="col-3 p-3 active">
+                        <a data-toggle="tab" href="#phy" class="text-dark"> Souscripteur Physique</a>
+                    </div>
+                {% endif %}
+                {% if 'cophy' in val %}
+                    <div class="col-3 p-3">
+                        <a data-toggle="tab" href="#cophy" class="text-dark"> Co-Souscripteur Physique</a>
+                    </div>
+                {% endif %}
+                {% if 'moral' in val %}
+                    <div class="col-3 p-3">
+                        <a data-toggle="tab" href="#moral" class="text-dark"> Souscripteur Moral </a>
+                    </div>
+                {% endif %}
+                {% if 'comoral' in val %}
+                    <div class="col-3 p-3">
+                        <a data-toggle="tab" href="#comoral" class="text-dark"> Co-Souscripteur Moral </a>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    <div class="container p-5">
+        {# {{ dump(app.session.get('pdfs')) }}
+         {{ dump(app.session.get('categories')) }}#}
+        <div class="row p-5">
+            <div class="col-12 border p-5">
+                <form action="{{ path('generate') }}/process.php" method="POST">
+                    <div class="tab-content text-center">
+                        {% for key,val in app.session('categories') %}
+                            {% if 'phy' in val %}
+                                <div id="phy" class="tab-pane fade in active show">
+                                    <h4 class="mb-4">Souscripteur Physique</h4>
+                                    <div>
+                                        <div class="form-group form-control mb-4">
+
+                                            <input type="radio" name="s_physique[pp_civilite]" value="mme"> Mme
+                                            <input type="radio" name="s_physique[pp_civilite]" value="melle">Melle
+                                            <input type="radio" name="s_physique[pp_civilite]" value="m">M.
+                                        </div>
+                                        <div class="form-group">
+
+
+                                            <input type="text" name="s_physique[pp_name]" class="form-control mb-4"
+                                                   placeholder="Nom" required>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="s_physique[pp_surname]" class="form-control mb-4"
+                                                   placeholder="Prénom" required>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="s_physique[pp_birthdate]"
+                                                   onfocus="(this.type='date')"
+                                                   class="form-control mb-4" placeholder="Date de naissace">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="s_physique[pp_birthname]" class="form-control mb-4"
+                                                   placeholder="Nom de naissace">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="s_physique[pp_birthcity]" class="form-control mb-4"
+                                                   placeholder="Ville de naissace">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="number" name="s_physique[pp_dept]" class="form-control mb-4"
+                                                   placeholder="Département de naissace">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="s_physique[pp_nationality]"
+                                                   class="form-control mb-4"
+                                                   placeholder="Nationalité">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="s_physique[pp_job]" class="form-control mb-4"
+                                                   placeholder="Emploi">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="s_physique[pp_adrdess]" class="form-control mb-4"
+                                                   placeholder="Adresse Postale">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="number" name="s_physique[pp_postcod]" class="form-control mb-4"
+                                                   placeholder="Code Postal">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="s_physique[pp_city]" class="form-control mb-4"
+                                                   placeholder="Ville">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="tel" name="s_physique[pp_telperso]" class="form-control mb-4"
+                                                   placeholder="Téléphone personnel">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="tel" name="s_physique[pp_telpro]" class="form-control mb-4"
+                                                   placeholder="Téléphone Professionnel">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="email" name="s_physique[pp_email]" class="form-control mb-4"
+                                                   placeholder="Email">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="s_physique[pp_address_fisc]"
+                                                   class="form-control mb-4"
+                                                   placeholder="Address Fisc">
+                                        </div>
+                                        {% if 'cophy' in val %}
+                                            <div class="form-group">
+                                                <a data-toggle="tab" href="#cophy" class="btn btn-primary"> Soumettre</a>
+                                            </div>
+                                        {% else %}
+                                            <div class="form-group">
+                                                <button type="submit" class="btn btn-primary">Soumettre</button>
+                                            </div>
+                                        {% endif %}
+
+                                    </div>
+                                </div>
+                            {% endif %}
+                            {% if 'cophy' in val %}
+                                <div id="cophy" class="tab-pane fade">
+                                    <h4 class="mb-4">Co-Souscripteur Physique</h4>
+                                    <div>
+                                        <div class="form-group form-control mb-4">
+
+                                            <input type="radio" name="c_physique[pp_civilite]" value="mme"> Mme
+                                            <input type="radio" name="c_physique[pp_civilite]" value="melle">Melle
+                                            <input type="radio" name="c_physique[pp_civilite]" value="m">M.
+                                        </div>
+                                        <div class="form-group">
+
+
+                                            <input type="text" name="c_physique[pp_name]" class="form-control mb-4"
+                                                   placeholder="Nom" required>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="c_physique[pp_surname]" class="form-control mb-4"
+                                                   placeholder="Prénom" required>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="c_physique[pp_birthdate]"
+                                                   onfocus="(this.type='date')"
+                                                   class="form-control mb-4" placeholder="Date de naissace">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="c_physique[pp_birthname]" class="form-control mb-4"
+                                                   placeholder="Nom de naissace">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="c_physique[pp_birthcity]" class="form-control mb-4"
+                                                   placeholder="Ville de naissace">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="number" name="c_physique[pp_dept]" class="form-control mb-4"
+                                                   placeholder="Département de naissace">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="c_physique[pp_nationality]"
+                                                   class="form-control mb-4"
+                                                   placeholder="Nationalité">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="c_physique[pp_job]" class="form-control mb-4"
+                                                   placeholder="Emploi">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="c_physique[pp_adrdess]" class="form-control mb-4"
+                                                   placeholder="Adresse Postale">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="number" name="c_physique[pp_postcod]" class="form-control mb-4"
+                                                   placeholder="Code Postal">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="c_physique[pp_city]" class="form-control mb-4"
+                                                   placeholder="Ville">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="tel" name="c_physique[pp_telperso]" class="form-control mb-4"
+                                                   placeholder="Téléphone personnel">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="tel" name="c_physique[pp_telpro]" class="form-control mb-4"
+                                                   placeholder="Téléphone Professionnel">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="email" name="c_physique[pp_email]" class="form-control mb-4"
+                                                   placeholder="Email">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="c_physique[pp_address_fisc]"
+                                                   class="form-control mb-4"
+                                                   placeholder="Address Fisc">
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-primary">Soumettre</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endif %}
+                            {% if 'moral' in val %}
+                                <div id="moral" class="tab-pane fade">
+                                    <h4 class="mb-4">Souscripteur Moral</h4>
+                                    <div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="s_moral[pm_companytype]" class="form-control mb-4"
+                                                   placeholder="Company Type" required>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="s_moral[pm_name]" class="form-control mb-4"
+                                                   placeholder="Nom" required>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="s_moral[pm_nameprep]" class="form-control mb-4"
+                                                   placeholder="NamePrep">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="s_moral[pm_quality]" class="form-control mb-4"
+                                                   placeholder="Quality">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="number" name="s_moral[pm_siret]" class="form-control mb-4"
+                                                   placeholder="Siret">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="number" name="s_moral[pm_ape]" class="form-control mb-4"
+                                                   placeholder="Ape">
+                                        </div>
+
+                                        <div class="form-group">
+
+                                            <input type="text" name="s_moral[pm_adrdess]" class="form-control mb-4"
+                                                   placeholder="Adresse Postale">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="number" name="s_moral[pm_postcod]" class="form-control mb-4"
+                                                   placeholder="Code Postal">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="s_moral[pm_city]" class="form-control mb-4"
+                                                   placeholder="Ville">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="tel" name="s_moral[pm_telperso]" class="form-control mb-4"
+                                                   placeholder="Téléphone personnel">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="tel" name="s_moral[pm_telpro]" class="form-control mb-4"
+                                                   placeholder="Téléphone Professionnel">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="email" name="s_moral[pm_email]" class="form-control mb-4"
+                                                   placeholder="Email">
+                                        </div>
+
+                                        <div class="form-group">
+
+                                            <input type="text" name="s_moral[pm_address_fisc]" class="form-control mb-4"
+                                                   placeholder="Address Fisc">
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-primary">Soumettre</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endif %}
+                            {% if 'comoral' in val %}
+                                <div id="comoral" class="tab-pane fade">
+                                    <h4 class="mb-4">Co-Souscripteur Moral</h4>
+                                    <div>
+                                        <div class="form-group form-control mb-4">
+
+                                            <input type="radio" name="co_moral[pp_civilite]" value="mme"> Mme
+                                            <input type="radio" name="co_moral[pp_civilite]" value="melle">Melle
+                                            <input type="radio" name="co_moral[pp_civilite]" value="m">M.
+                                        </div>
+                                        <div class="form-group">
+
+
+                                            <input type="text" name="co_moral[pp_name]" class="form-control mb-4"
+                                                   placeholder="Nom" required>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="co_moral[pp_surname]" class="form-control mb-4"
+                                                   placeholder="Prénom" required>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="co_moral[pp_birthdate]"
+                                                   onfocus="(this.type='date')"
+                                                   class="form-control mb-4" placeholder="Date de naissace">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="co_moral[pp_birthname]" class="form-control mb-4"
+                                                   placeholder="Nom de naissace">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="co_moral[pp_birthcity]" class="form-control mb-4"
+                                                   placeholder="Ville de naissace">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="number" name="co_moral[pp_dept]" class="form-control mb-4"
+                                                   placeholder="Département de naissace">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="co_moral[pp_nationality]" class="form-control mb-4"
+                                                   placeholder="Nationalité">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="co_moral[pp_job]" class="form-control mb-4"
+                                                   placeholder="Emploi">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="co_moral[pp_adrdess]" class="form-control mb-4"
+                                                   placeholder="Adresse Postale">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="number" name="co_moral[pp_postcod]" class="form-control mb-4"
+                                                   placeholder="Code Postal">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="co_moral[pp_city]" class="form-control mb-4"
+                                                   placeholder="Ville">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="tel" name="co_moral[pp_telperso]" class="form-control mb-4"
+                                                   placeholder="Téléphone personnel">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="tel" name="co_moral[pp_telpro]" class="form-control mb-4"
+                                                   placeholder="Téléphone Professionnel">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="email" name="co_moral[pp_email]" class="form-control mb-4"
+                                                   placeholder="Email">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" name="co_moral[pp_address_fisc]"
+                                                   class="form-control mb-4"
+                                                   placeholder="Address Fisc">
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-primary">Soumettre</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{#
+<h4>Sélectionner catégorie</h4>
+<form action="{{ path('tab') }}" method="POST">
+    <div class="form-row">
+        <div class="col-12">
+            <input type="checkbox" name="category[]" id="phy"> <label for="phy">Souscripteur
+                Physique</label>
+        </div>
+    </div>
+    <div class="form-row mt-5">
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-primary rounded-0">Suivant</button>
+        </div>
+    </div>
+</form>#}

@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container p-5">
+        {#{{ dump(app.session.get('pdfs')) }}#}
+        <div class="row p-5">
+            <div class="col-12 border p-5">
+                <h4>Sélectionner catégorie</h4>
+                <form action="{{ path('tab') }}" method="POST">
+                    <div class="form-row">
+                        <div class="col-12">
+                            <input type="checkbox" name="category[]" id="phy" value="phy"> <label for="phy">Souscripteur Physique</label>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-12">
+                            <input type="checkbox" name="category[]" id="cophy" value="cophy"> <label for="cophy">Co-Souscripteur Physique</label>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-12">
+                            <input type="checkbox" name="category[]" id="moral" value="moral"> <label for="moral">Souscripteur Moral</label>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-12">
+                            <input type="checkbox" name="category[]" id="comoral" value="comoral"> <label for="comoral">Co-Souscripteur Moral</label>
+                        </div>
+                    </div>
+                    <div class="form-row mt-5">
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-primary rounded-0">Suivant</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

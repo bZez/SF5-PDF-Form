@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}L&A Finances - Connexion{% endblock %}
+
+{% block body %}
+<div class="container" style="height: calc(100vh - 96px)">
+   <div class="row h-100 align-items-center">
+       <div class="col-12 offset-0 col-md-6 offset-md-3 shadow p-3">
+           <form method="post">
+               {% if error %}
+                   <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+               {% endif %}
+
+               {% if app.user %}
+                   <div class="mb-3">
+                       You are logged in as {{ app.user.username }}, <a href="{{ path('app_logout') }}">Logout</a>
+                   </div>
+               {% endif %}
+               <img src="https://souscriptions.la-finance.fr/assets/img/logonew.png" alt="" width="85px">
+               <hr>
+
+               <input type="email" value="{{ last_username }}" name="email" id="inputEmail" class="form-control" required autofocus placeholder="Adresse email...">
+
+               <input type="password" name="password" id="inputPassword" class="form-control mt-3" required placeholder="Mot de passe...">
+
+               <input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}">
+
+               {#
+                   Uncomment this section and add a remember_me option below your firewall to activate remember me functionality.
+                   See https://symfony.com/doc/current/security/remember_me.html
+
+                   <div class="checkbox mb-3">
+                       <label>
+                           <input type="checkbox" name="_remember_me"> Remember me
+                       </label>
+                   </div>
+               #}
+
+               <button class="btn btn-sm btn-primary rounded-0 mt-3 w-100" type="submit">
+                   Connexion
+               </button>
+           </form>
+           <div class="row mt-3">
+               <div class="col-12 text-center">
+                   <small>Pas encore inscrit ? <a href="{{ path('app_register') }}">Créer un compte</a></small>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+{% endblock %}
