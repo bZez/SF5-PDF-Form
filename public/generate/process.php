@@ -691,5 +691,5 @@ $zip->addFromString($pdf,  $pdf->Output("s"));
 		header('Content-type: application/octet-stream');
 		header('Content-Disposition: attachment; filename=doc.zip');
 		header('Content-Transfer-Encoding: binary');
-        $contentZip = echo (file_get_contents($tmp_file));
+        echo (file_get_contents($tmp_file));
 
