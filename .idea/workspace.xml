@@ -1,15 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1291464-b33b-4271-87c8-6b74ae06bb51" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="c1291464-b33b-4271-87c8-6b74ae06bb51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCPI-VOISIN-EPARGNE-PIERRE-PERSONNE-PHYSIQUE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/CODES ET EXPLICATIONS DIGITALISATION_PM.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot1 PERSONNE PHYSIQUE ET PERSONNE MORALE/SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-MORALE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot1 PERSONNE PHYSIQUE ET PERSONNE MORALE/SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-MORALE_CDC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot1 PERSONNE PHYSIQUE ET PERSONNE MORALE/SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-PHYSIQUE_CDC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot1 PERSONNE PHYSIQUE ET PERSONNE MORALE/SCPI-PRIMONIAL-PRIMOPIERRE-PERSONNE-MORALE_CDC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot1 PERSONNE PHYSIQUE ET PERSONNE MORALE/SCPI-PRIMONIAL-PRIMOPIERRE-PERSONNE-PHYSIQUE_CDC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot1 PERSONNE PHYSIQUE ET PERSONNE MORALE/SCPI-PRIMONIAL-PRIMOVIE-PERSONNE-MORALE_CDC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot1 PERSONNE PHYSIQUE ET PERSONNE MORALE/SCPI-PRIMONIAL-PRIMOVIE-PERSONNE-PHYSIQUE_CDC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot1 PERSONNE PHYSIQUE ET PERSONNE MORALE/SCPI-VOISIN-EPARGNE-PIERRE-PERSONNE-MORALE_CDC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot1 PERSONNE PHYSIQUE ET PERSONNE MORALE/SCPI-VOISIN-EPARGNE-PIERRE-PERSONNE-PHYSIQUE_CDC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-PAREF-INTERPIERRE-FRANCE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-PAREF-INTERPIERRE-FRANCE_CDC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-PAREF-NOVAPIERRE-ALLEMAGNE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-PAREF-NOVAPIERRE-ALLEMAGNE2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-PAREF-NOVAPIERRE-ALLEMAGNE2_CDC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-PAREF-NOVAPIERRE-ALLEMAGNE_CDC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-SOFIDY-EFIMMO.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-SOFIDY-EFIMMO_CDC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-SOFIDY-IMMORENTE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-SOFIDY-IMMORENTE_CDC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot3 PERSONNE PHYSIQUE/GENERALI-HIMALIA.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot3 PERSONNE PHYSIQUE/GENERALI-HIMALIA_CDC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot3 PERSONNE PHYSIQUE/PRIMONIAL-SERENIPIERRE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot3 PERSONNE PHYSIQUE/PRIMONIAL-SERENIPIERRE_CDC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot3 PERSONNE PHYSIQUE/PRIMONIAL-TARGET+.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lot3 PERSONNE PHYSIQUE/PRIMONIAL-TARGET+_CDC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/PRIMONIAL-SERENIPIERRE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/PRIMONIAL-TARGET+.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-MORALE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-PHYSIQUE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/SCPI-PRIMONIAL-PRIMOPIERRE-PERSONNE-MORALE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/SCPI-PRIMONIAL-PRIMOPIERRE-PERSONNE-PHYSIQUE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/SCPI-PRIMONIAL-PRIMOVIE-PERSONNE-MORALE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/SCPI-PRIMONIAL-PRIMOVIE-PERSONNE-PHYSIQUE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/SCPI-SOFIDY-EFIMMO.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/SCPI-SOFIDY-IMMORENTE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/SCPI-VOISIN-EPARGNE-PIERRE-PERSONNE-MORALE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/SCPI-VOISIN-EPARGNE-PIERRE-PERSONNE-PHYSIQUE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/test.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/57b3025d-13e7-453c-b7fe-b5425cf3abcd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/57b3025d-13e7-453c-b7fe-b5425cf3abcd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pdform.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pdform.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/generate/PDF.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/generate/PRIMONIAL-GESTION-PRIVEE-BS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/generate/PRIMONIAL-SERENIPIERRE-SURAVENIR-BS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/generate/PRIMONIAL-TARGET_-BS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-PAREF-INTERPIERRE-FRANCE-BS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-PAREF-NOVAPIERRE-ALLEMAGNE-BS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-PAREF-NOVAPIERRE-ALLEMAGNE2-BS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-MORALE-BS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-PHYSIQUE-BS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-PRIMONIAL-PRIMOPIERRE-PERSONNE-MORALE-BS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-PRIMONIAL-PRIMOPIERRE-PERSONNE-PHYSIQUE-BS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-PRIMONIAL-PRIMOVIE-PERSONNE-MORALE.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-PRIMONIAL-PRIMOVIE-PERSONNE-PHYSIQUE.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-SOFIDY-EFIMMO.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-SOFIDY-IMMORENTE-BS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-VOISIN-EPARGNE-PIERRE.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/generate/process.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/generate/process.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/GlobalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/GlobalController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/global/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/global/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/global/tab.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/global/tab.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -48,135 +120,14 @@
     </expand>
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="84" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/RegistrationController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/security/login.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt111/FTPRemoteFiles/7/6/donnemoiju@ftp.cluster020.hosting.ovh.net/custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/registration/register.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Security/AppAuthAuthenticator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="95" column="72" selection-start-line="95" selection-start-column="72" selection-end-line="95" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="104" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>lib</find>
-      <find>$phy</find>
-      <find>pc_</find>
-      <find>CoPhy</find>
-      <find>s_physique</find>
-      <find>required=&quot;&quot;</find>
-      <find>Gin�ra</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>c_physique</replace>
-      <replace>s_moral</replace>
-      <replace>$cophy</replace>
-      <replace>pp_</replace>
-      <replace>$moral</replace>
-      <replace>Moral</replace>
-      <replace>co_moral</replace>
-      <replace>Ginora</replace>
-    </replaceStrings>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$USER_HOME$/AppData/Local/Temp/Mxt111/FTPRemoteFiles/2/2/u97287653@access783099723.webspace-data.io/index.html" />
-        <option value="$PROJECT_DIR$/templates/global/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/fpdm.php" />
-        <option value="$PROJECT_DIR$/public/generate/process.php" />
-        <option value="$PROJECT_DIR$/templates/global/cat.html.twig" />
-        <option value="$PROJECT_DIR$/templates/global/tab.html.twig" />
-        <option value="$USER_HOME$/AppData/Local/Temp/Mxt111/FTPRemoteFiles/4/0/u97287653@access783099723.webspace-data.io/index.html.twig" />
-        <option value="$PROJECT_DIR$/.env.local" />
-        <option value="$PROJECT_DIR$/src/Controller/SecurityController.php" />
-        <option value="$PROJECT_DIR$/src/Controller/GlobalController.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/src/Security/AppAuthAuthenticator.php" />
-        <option value="$PROJECT_DIR$/templates/base.html.twig" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/config/packages/security.yaml" />
-        <option value="$PROJECT_DIR$/templates/registration/register.html.twig" />
-        <option value="$PROJECT_DIR$/templates/security/login.html.twig" />
-        <option value="$USER_HOME$/AppData/Local/Temp/Mxt111/FTPRemoteFiles/6/0/donnemoiju@ftp.cluster020.hosting.ovh.net/template.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/Mxt111/FTPRemoteFiles/6/4/donnemoiju@ftp.cluster020.hosting.ovh.net/custom.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/Mxt111/FTPRemoteFiles/6/6/donnemoiju@ftp.cluster020.hosting.ovh.net/custom.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/Mxt111/FTPRemoteFiles/7/0/donnemoiju@ftp.cluster020.hosting.ovh.net/custom.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/Mxt111/FTPRemoteFiles/7/6/donnemoiju@ftp.cluster020.hosting.ovh.net/custom.css" />
-      </list>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\Documents\Projets\SF5-PDF-Form\.idea" />
+      </set>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -291,113 +242,35 @@
       <path value="$PROJECT_DIR$/vendor/symfony/apache-pack" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
-    <option name="y" value="40" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
+  <component name="ProjectId" id="1YR05boYkRkmRPtKrsO5ByWzC67" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="pdform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdform" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdform" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdform" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdform" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdform" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="global" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdform" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="registration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdform" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdform" type="462c0819:PsiDirectoryNode" />
-              <item name="translations" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../clecd" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Documents\Projets\SF5-PDF-Form\public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Documents\Projets\SF5-PDF-Form\public" />
       <recent name="F:\Documents\Projets\pdform" />
       <recent name="F:\Documents\Projets\pdform\templates\global" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -410,242 +283,37 @@
       <option name="presentableId" value="Default" />
       <updated>1580978192220</updated>
       <workItem from="1580978193340" duration="29009000" />
+      <workItem from="1582889918259" duration="1391000" />
+      <workItem from="1584008221672" duration="14176000" />
+      <workItem from="1584103357647" duration="15839000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29009000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1936" height="1176" extended-state="6" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32981783" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32981783" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info anchor="right" id="Database" visible="true" weight="0.15031983" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Controller/fpdm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="561" column="12" lean-forward="true" selection-start-line="561" selection-start-column="12" selection-end-line="561" selection-end-column="12" />
-          <folding>
-            <element signature="e#7#2577#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pdf/ex-array.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" selection-start-line="6" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/generate/fpdm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt111/FTPRemoteFiles/2/2/u97287653@access783099723.webspace-data.io/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="32" column="10" selection-start-line="22" selection-start-column="3" selection-end-line="32" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/generate/process.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/global/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/global/cat.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/57b3025d-13e7-453c-b7fe-b5425cf3abcd/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env.local">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/SecurityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt111/FTPRemoteFiles/4/0/u97287653@access783099723.webspace-data.io/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="69" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/global/tab.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="128" column="108" selection-start-line="128" selection-start-column="108" selection-end-line="128" selection-end-column="108" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://57b3025d-13e7-453c-b7fe-b5425cf3abcd/schema/lafinance/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-          <column-attributes>
-            <column name="roles" languageId="JSON" position="3" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/GlobalController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="e#34#99#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Security/AppAuthAuthenticator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="95" column="72" selection-start-line="95" selection-start-column="72" selection-end-line="95" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="84" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/registration/register.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/RegistrationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_libre-caslon-fontfacekit.zip/web fonts/librecaslondisplay_regular_ubasic/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt111/FTPRemoteFiles/6/4/donnemoiju@ftp.cluster020.hosting.ovh.net/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="115" column="36" lean-forward="true" selection-end-line="126" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt111/FTPRemoteFiles/6/6/donnemoiju@ftp.cluster020.hosting.ovh.net/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="124" column="26" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt111/FTPRemoteFiles/6/0/donnemoiju@ftp.cluster020.hosting.ovh.net/template.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt111/FTPRemoteFiles/7/0/donnemoiju@ftp.cluster020.hosting.ovh.net/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt111/FTPRemoteFiles/7/6/donnemoiju@ftp.cluster020.hosting.ovh.net/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="601" y="286" width="700" height="530" key="recent.locations.popup" timestamp="1584614204066">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="601" y="286" width="700" height="530" key="recent.locations.popup/0.40.1920.1040/1920.40.1920.1160@0.40.1920.1040" timestamp="1584614204066" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1584623545554">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040/1920.40.1920.1160@0.40.1920.1040" timestamp="1584623545554" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/templates/global/tab.html.twig</url>
+          <line>144</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -8,7 +8,7 @@ use Symfony\Component\HttpFoundation\Session\SessionInterface;
 use Symfony\Component\Routing\Annotation\Route;
 
 /**
- * @Route("/a")
+ * @Route("/")
  */
 class GlobalController extends AbstractController
 {
@@ -18,7 +18,22 @@ class GlobalController extends AbstractController
     public function index()
     {
         return $this->render('global/index.html.twig', [
-            'pdflist' => ['primopierrebs'=>'SCPI PRIMONIAL PRIMOPIERRE PERSONNE PHYSIQUE BS'],
+            'pdflistphy' => [
+                'SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-PHYSIQUE.pdf'=>'SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-PHYSIQUE',
+                'SCPI-PRIMONIAL-PRIMOPIERRE-PERSONNE-PHYSIQUE.pdf'=>'SCPI-PRIMONIAL-PRIMOPIERRE-PERSONNE-PHYSIQUE',
+                'SCPI-PRIMONIAL-PRIMOVIE-PERSONNE-PHYSIQUE.pdf'=>'CPI-PRIMONIAL-PRIMOVIE-PERSONNE-PHYSIQUE',
+                'SCPI-VOISIN-EPARGNE-PIERRE-PERSONNE-PHYSIQUE.pdf'=>'SCPI-VOISIN-EPARGNE-PIERRE-PERSONNE-PHYSIQUE',
+                'SCPI-SOFIDY-EFIMMO.pdf'=>'SCPI-SOFIDY-EFIMMO',
+                'SCPI-SOFIDY-IMMORENTE.pdf'=>'SCPI-SOFIDY-IMMORENTE',
+                'PRIMONIAL-SERENIPIERRE.pdf' => "PRIMONIAL-SERENIPIERRE",
+                'PRIMONIAL-TARGET+.pdf' => "PRIMONIAL-TARGET+"
+            ],
+            'pdflistmor' => [
+                'SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-MORALE.pdf'=>'SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-MORALE',
+                'SCPI-PRIMONIAL-PRIMOPIERRE-PERSONNE-MORALE.pdf'=>'SCPI-PRIMONIAL-PRIMOPIERRE-PERSONNE-MORALE',
+                'SCPI-PRIMONIAL-PRIMOVIE-PERSONNE-MORALE.pdf'=>'SCPI-PRIMONIAL-PRIMOVIE-PERSONNE-MORALE',
+                'SCPI-VOISIN-EPARGNE-PIERRE-PERSONNE-MORALE.pdf'=>'SCPI-VOISIN-EPARGNE-PIERRE-PERSONNE-MORALE',
+            ],
         ]);
     }
 
