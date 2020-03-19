@@ -14,6 +14,7 @@ if (isset($_POST['s_physique'])) {
     $phy = $_POST['s_physique'];
     $N1 = $phy['pp_name'];
     $N2 = $phy['pp_surname'];
+    $NF = $phy['pm_num_fisc'];
     if ($phy['pp_birthname'] !== '') {
         if ($phy['pp_civilite'] === 'm') {
             $N0 = $N1;
@@ -72,6 +73,7 @@ if (isset($_POST['c_physique'])) {
     $cophy = $_POST['c_physique'];
     $CO_N1 = $cophy['pp_name'];
     $CO_N2 = $cophy['pp_surname'];
+    $CO_NF = $phy['pp_num_fisc'];
     if ($cophy['pp_birthname'] !== '') {
         if ($cophy['pp_civilite'] === 'm') {
             $CO_N0 = $CO_N1;
@@ -137,6 +139,7 @@ if (isset($_POST['s_moral'])) {
     $MO_A3 = $phy['pm_city'];
     $MO_M1 = $phy['pm_email'];
     $MO_R1 = $phy['pm_address_fisc'];
+    $NF = $phy['pm_num_fisc'];
     $MO_R2 = $phy['pm_address_fisc'];
 };
 //CO-MORALE

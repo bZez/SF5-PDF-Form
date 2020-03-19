@@ -2,74 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1291464-b33b-4271-87c8-6b74ae06bb51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCPI-VOISIN-EPARGNE-PIERRE-PERSONNE-PHYSIQUE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/CODES ET EXPLICATIONS DIGITALISATION_PM.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot1 PERSONNE PHYSIQUE ET PERSONNE MORALE/SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-MORALE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot1 PERSONNE PHYSIQUE ET PERSONNE MORALE/SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-MORALE_CDC.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot1 PERSONNE PHYSIQUE ET PERSONNE MORALE/SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-PHYSIQUE_CDC.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot1 PERSONNE PHYSIQUE ET PERSONNE MORALE/SCPI-PRIMONIAL-PRIMOPIERRE-PERSONNE-MORALE_CDC.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot1 PERSONNE PHYSIQUE ET PERSONNE MORALE/SCPI-PRIMONIAL-PRIMOPIERRE-PERSONNE-PHYSIQUE_CDC.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot1 PERSONNE PHYSIQUE ET PERSONNE MORALE/SCPI-PRIMONIAL-PRIMOVIE-PERSONNE-MORALE_CDC.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot1 PERSONNE PHYSIQUE ET PERSONNE MORALE/SCPI-PRIMONIAL-PRIMOVIE-PERSONNE-PHYSIQUE_CDC.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot1 PERSONNE PHYSIQUE ET PERSONNE MORALE/SCPI-VOISIN-EPARGNE-PIERRE-PERSONNE-MORALE_CDC.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot1 PERSONNE PHYSIQUE ET PERSONNE MORALE/SCPI-VOISIN-EPARGNE-PIERRE-PERSONNE-PHYSIQUE_CDC.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-PAREF-INTERPIERRE-FRANCE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-PAREF-INTERPIERRE-FRANCE_CDC.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-PAREF-NOVAPIERRE-ALLEMAGNE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-PAREF-NOVAPIERRE-ALLEMAGNE2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-PAREF-NOVAPIERRE-ALLEMAGNE2_CDC.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-PAREF-NOVAPIERRE-ALLEMAGNE_CDC.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-SOFIDY-EFIMMO.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-SOFIDY-EFIMMO_CDC.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-SOFIDY-IMMORENTE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot2 PERSONNE PHYSIQUE_MORALE/SCPI-SOFIDY-IMMORENTE_CDC.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot3 PERSONNE PHYSIQUE/GENERALI-HIMALIA.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot3 PERSONNE PHYSIQUE/GENERALI-HIMALIA_CDC.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot3 PERSONNE PHYSIQUE/PRIMONIAL-SERENIPIERRE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot3 PERSONNE PHYSIQUE/PRIMONIAL-SERENIPIERRE_CDC.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot3 PERSONNE PHYSIQUE/PRIMONIAL-TARGET+.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Lot3 PERSONNE PHYSIQUE/PRIMONIAL-TARGET+_CDC.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/PRIMONIAL-SERENIPIERRE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/PRIMONIAL-TARGET+.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-MORALE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-PHYSIQUE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/SCPI-PRIMONIAL-PRIMOPIERRE-PERSONNE-MORALE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/SCPI-PRIMONIAL-PRIMOPIERRE-PERSONNE-PHYSIQUE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/SCPI-PRIMONIAL-PRIMOVIE-PERSONNE-MORALE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/SCPI-PRIMONIAL-PRIMOVIE-PERSONNE-PHYSIQUE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/SCPI-SOFIDY-EFIMMO.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/SCPI-SOFIDY-IMMORENTE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/SCPI-VOISIN-EPARGNE-PIERRE-PERSONNE-MORALE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/SCPI-VOISIN-EPARGNE-PIERRE-PERSONNE-PHYSIQUE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/test.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/57b3025d-13e7-453c-b7fe-b5425cf3abcd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/57b3025d-13e7-453c-b7fe-b5425cf3abcd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pdform.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pdform.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/generate/PDF.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/generate/PRIMONIAL-GESTION-PRIVEE-BS.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/generate/PRIMONIAL-SERENIPIERRE-SURAVENIR-BS.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/generate/PRIMONIAL-TARGET_-BS.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-PAREF-INTERPIERRE-FRANCE-BS.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-PAREF-NOVAPIERRE-ALLEMAGNE-BS.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-PAREF-NOVAPIERRE-ALLEMAGNE2-BS.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-MORALE-BS.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-PHYSIQUE-BS.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-PRIMONIAL-PRIMOPIERRE-PERSONNE-MORALE-BS.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-PRIMONIAL-PRIMOPIERRE-PERSONNE-PHYSIQUE-BS.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-PRIMONIAL-PRIMOVIE-PERSONNE-MORALE.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-PRIMONIAL-PRIMOVIE-PERSONNE-PHYSIQUE.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-SOFIDY-EFIMMO.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-SOFIDY-IMMORENTE-BS.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/generate/SCPI-VOISIN-EPARGNE-PIERRE.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/generate/process.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/generate/process.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/GlobalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/GlobalController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/global/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/global/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/global/tab.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/global/tab.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -285,7 +219,7 @@
       <workItem from="1580978193340" duration="29009000" />
       <workItem from="1582889918259" duration="1391000" />
       <workItem from="1584008221672" duration="14176000" />
-      <workItem from="1584103357647" duration="15839000" />
+      <workItem from="1584103357647" duration="16403000" />
     </task>
     <servers />
   </component>
@@ -310,7 +244,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/templates/global/tab.html.twig</url>
-          <line>144</line>
+          <line>150</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
