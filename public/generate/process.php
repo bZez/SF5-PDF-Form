@@ -197,7 +197,15 @@ if (isset($_POST['co_moral'])) {
     }
 };
 //BOUCLE PDF
-foreach ($_SESSION["_sf2_attributes"]['pdfs'] as $pdf) {
+$pdfs = $_SESSION["_sf2_attributes"]['pdfs'];
+if(count($pdfs) > 1){
+	$zip = new ZipArchive();
+        $tmp_file = tempnam('tmp','');
+        $zip->open($tmp_file,  ZipArchive::CREATE);
+                    
+}
+
+foreach ($pdfs as $pdf) {
     switch ($pdf) {
         case 'SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-MORALE.pdf':
             $fields = [
@@ -672,5 +680,16 @@ foreach ($_SESSION["_sf2_attributes"]['pdfs'] as $pdf) {
     $pdf = new FPDM('../' . $pdf);
     $pdf->Load($fields, true); // second parameter: false if field values are in ISO-8859-1, true if UTF-8
     $pdf->Merge();
+	if(count($pdfs) > 1){
+$zip->addFromString($pdf,  $pdf->Output("s"));
+	}else{
     $pdf->Output();
+	die();
+		}
 }
+        $zip->close();
+		header('Content-type: application/octet-stream');
+		header('Content-Disposition: attachment; filename=doc.zip');
+		header('Content-Transfer-Encoding: binary');
+        $contentZip = echo (file_get_contents($tmp_file));
+
