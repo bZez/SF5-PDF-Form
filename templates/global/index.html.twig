@@ -6,23 +6,33 @@
     <div class="container p-5">
         <div class="row ">
             <div class="col-12 border p-5">
-                <h4 class="text-center">Sélectionner PDF <span class="text-muted">(vous pouvez en sélectionner plusieurs)</span></h4>
+                <h4 class="text-center">Sélectionner PDF <span class="text-muted">(vous pouvez en sélectionner plusieurs)</span>
+                </h4>
                 <hr>
                 <form action="{{ path('category') }}" method="POST">
                     <div class="form-row">
+
                         <div class="col-6">
                             <h4 class="text-center mb-3">Personne physique</h4>
+                            <ul class="list-unstyled">
                             {% for key,pdf in pdflistphy %}
-                                <input type="checkbox" id="{{ key }}" name="pdfs[]" value="{{ key }}"> <label for="{{ key }}">{{ pdf }}</label>
-                                <br>
+                                <li>
+                                    <label style="word-wrap:break-word"
+                                            for="{{ key }}">
+                                        <input type="checkbox" id="{{ key }}" name="pdfs[]" value="{{ key }}"> {{ pdf }}</label></li>
                             {% endfor %}
+                            </ul>
                         </div>
                         <div class="col-6">
                             <h4 class="text-center mb-3">Personne morale</h4>
+                            <ul class="list-unstyled">
                             {% for key,pdf in pdflistmor %}
-                                <input type="checkbox" id="{{ key }}" name="pdfs[]" value="{{ key }}"> <label for="{{ key }}">{{ pdf }}</label>
-                                <br>
+                                <li>
+                                     <label style="word-wrap:break-word"
+                                            for="{{ key }}"><input type="checkbox" id="{{ key }}" name="pdfs[]" value="{{ key }}">
+                                         {{ pdf }}</label></li>
                             {% endfor %}
+                        </ul>
                         </div>
                     </div>
                     <div class="form-row mt-5">

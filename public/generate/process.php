@@ -9,12 +9,13 @@ $fields = [];
 $A1 = $A2 = $A3 = $A4 = $R1 = $R2 = $NF = $N0 = $N1 = $N2 = $D1 = $D2 = $D3 = $D4 = $D5 = $M1 = $NA = $PRO = $D1_JOUR = $D1_MOIS = $D1_ANNEE = $CO_D1_JOUR = $CO_D1_MOIS = $CO_D1_ANNEE = '';
 //CO-SOUSCRIPTEUR
 $CO_N0 = $CO_N1 = $CO_N2 = $CO_D1 = $CO_D2 = $CO_D3 = $CO_D4 = $CO_NA = $CO_PRO = $CO_A1 = $CO_A2 = $CO_A3 = $CO_A4 = $CGP = $J = $V = $MB = $CO_NF = $CO_M1 = $CO_R1 = $CO_R2 = '';
+$MO_N0 = $MO_N1 = $MO_N2 = $MO_D1 = $MO_D2 = $MO_D3 = $MO_D4 = $MO_NA = $MO_PRO = $MO_A1 = $MO_A2 = $MO_A3 = $MO_A4 = $CGP = $J = $V = $MB = $MO_NF = $MO_M1 = $MO_R1 = $MO_R2 = '';
 //PHY
 if (isset($_POST['s_physique'])) {
     $phy = $_POST['s_physique'];
     $N1 = $phy['pp_name'];
     $N2 = $phy['pp_surname'];
-    $NF = $phy['pm_num_fisc'];
+    $NF = $phy['pp_num_fisc'];
     if ($phy['pp_birthname'] !== '') {
         if ($phy['pp_civilite'] === 'm') {
             $N0 = $N1;
@@ -198,11 +199,11 @@ if (isset($_POST['co_moral'])) {
 };
 //BOUCLE PDF
 $pdfs = $_SESSION["_sf2_attributes"]['pdfs'];
-if(count($pdfs) > 1){
-	$zip = new ZipArchive();
-        $tmp_file = tempnam('tmp','');
-        $zip->open($tmp_file,  ZipArchive::CREATE);
-                    
+if (count($pdfs) > 1) {
+    $zip = new ZipArchive();
+    $tmp_file = tempnam('tmp', '');
+    $zip->open($tmp_file, ZipArchive::CREATE);
+
 }
 
 foreach ($pdfs as $pdf) {
@@ -219,7 +220,7 @@ foreach ($pdfs as $pdf) {
             break;
         case 'SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-PHYSIQUE.pdf':
             $fields = [
-                5 => $N1 . '' . $N2,
+                5 => $N1 . ' ' . $N2,
                 6 => $N0,
                 7 => $D1_JOUR,
                 8 => $D1_MOIS,
@@ -231,7 +232,7 @@ foreach ($pdfs as $pdf) {
                 15 => $A2,
                 16 => $A3,
                 22 => $M1,
-                27 => $CO_N1 . '' . $CO_N2,
+                27 => $CO_N1 . ' ' . $CO_N2,
                 28 => $CO_N0,
                 29 => $CO_D1_JOUR,
                 30 => $CO_D1_MOIS,
@@ -244,7 +245,7 @@ foreach ($pdfs as $pdf) {
                 38 => $CO_A3,
                 44 => $CO_M1,
                 84 => (new DateTime())->format('d/m/Y'),
-                'T1' => $N1 . '' . $N2,
+                'T1' => $N1 . ' ' . $N2,
                 'T2' => $N0,
                 'DJ1' => $D1_JOUR,
                 'DM1' => $D1_MOIS,
@@ -254,7 +255,7 @@ foreach ($pdfs as $pdf) {
                 'T4' => $NA,
                 'T5' => $D4,
                 'T6' => $PRO,
-                'T8' => $CO_N1 . '' . $CO_N2,
+                'T8' => $CO_N1 . ' ' . $CO_N2,
                 'T9' => $CO_N0,
                 'DJ2' => $CO_D1_JOUR,
                 'DM2' => $CO_D1_MOIS,
@@ -284,7 +285,7 @@ foreach ($pdfs as $pdf) {
             break;
         case 'SCPI-PRIMONIAL-PRIMOPIERRE-PERSONNE-PHYSIQUE.pdf':
             $fields = [
-                5 => $N1 . '' . $N2,
+                5 => $N1 . ' ' . $N2,
                 6 => $N0,
                 7 => $D1_JOUR,
                 8 => $D1_MOIS,
@@ -296,7 +297,7 @@ foreach ($pdfs as $pdf) {
                 15 => $A2,
                 16 => $A3,
                 22 => $M1,
-                27 => $CO_N1 . '' . $CO_N2,
+                27 => $CO_N1 . ' ' . $CO_N2,
                 28 => $CO_N0,
                 29 => $CO_D1_JOUR,
                 30 => $CO_D1_MOIS,
@@ -309,7 +310,7 @@ foreach ($pdfs as $pdf) {
                 38 => $CO_A3,
                 44 => $CO_M1,
                 84 => (new DateTime())->format('d/m/Y'),
-                'T1' => $N1 . '' . $N2,
+                'T1' => $N1 . ' ' . $N2,
                 'T2' => $N0,
                 'DJ1' => $D1_JOUR,
                 'DM1' => $D1_MOIS,
@@ -319,7 +320,7 @@ foreach ($pdfs as $pdf) {
                 'T4' => $NA,
                 'T5' => $D4,
                 'T6' => $PRO,
-                'T8' => $CO_N1 . '' . $CO_N2,
+                'T8' => $CO_N1 . ' ' . $CO_N2,
                 'T9' => $CO_N0,
                 'DJ2' => $CO_D1_JOUR,
                 'DM2' => $CO_D1_MOIS,
@@ -359,7 +360,7 @@ foreach ($pdfs as $pdf) {
             break;
         case 'SCPI-PRIMONIAL-PRIMOVIE-PERSONNE-PHYSIQUE.pdf':
             $fields = [
-                5 => $N1 . '' . $N2,
+                5 => $N1 . ' ' . $N2,
                 6 => $N0,
                 7 => $D1_JOUR,
                 8 => $D1_MOIS,
@@ -371,7 +372,7 @@ foreach ($pdfs as $pdf) {
                 15 => $A2,
                 16 => $A3,
                 22 => $M1,
-                27 => $CO_N1 . '' . $CO_N2,
+                27 => $CO_N1 . ' ' . $CO_N2,
                 28 => $CO_N0,
                 29 => $CO_D1_JOUR,
                 30 => $CO_D1_MOIS,
@@ -384,7 +385,7 @@ foreach ($pdfs as $pdf) {
                 38 => $CO_A3,
                 44 => $CO_M1,
                 84 => (new DateTime())->format('d/m/Y'),
-                'T1' => $N1 . '' . $N2,
+                'T1' => $N1 . ' ' . $N2,
                 'T2' => $N0,
                 'DJ1' => $D1_JOUR,
                 'DM1' => $D1_MOIS,
@@ -394,7 +395,7 @@ foreach ($pdfs as $pdf) {
                 'T4' => $NA,
                 'T5' => $D4,
                 'T6' => $PRO,
-                'T8' => $CO_N1 . '' . $CO_N2,
+                'T8' => $CO_N1 . ' ' . $CO_N2,
                 'T9' => $CO_N0,
                 'DJ2' => $CO_D1_JOUR,
                 'DM2' => $CO_D1_MOIS,
@@ -535,7 +536,7 @@ foreach ($pdfs as $pdf) {
                 'M_DATE_NAISSANCE' => $D1_MOIS,
                 'A_DATE_NAISSANCE' => $D1_ANNEE,
                 'DEP_NAISSANCE' => $D3,
-                'VILLE_NAISSANCE' => $D2.' '.$D4,
+                'VILLE_NAISSANCE' => $D2 . ' ' . $D4,
                 'NAT' => $NA,
                 'EMAIL' => $M1,
                 'NUM_FISCAL' => $NF,
@@ -550,12 +551,12 @@ foreach ($pdfs as $pdf) {
                 'CO_M_DATE_NAISSANCE' => $CO_D1_MOIS,
                 'CO_A_DATE_NAISSANCE' => $CO_D1_ANNEE,
                 'CO_DEP_NAISSANCE' => $CO_D3,
-                'CO_VILLE_NAISSANCE' => $CO_D2.' '.$CO_D4,
+                'CO_VILLE_NAISSANCE' => $CO_D2 . ' ' . $CO_D4,
                 'CO_NAT' => $CO_NA,
                 'CO_EMAIL' => $CO_M1,
-                'CO_NUM_FISCAL' =>$CO_NF,
+                'CO_NUM_FISCAL' => $CO_NF,
                 'LE' => (new DateTime())->format('d/m/Y'),
-                'T1' => $N1 . '' . $N2,
+                'T1' => $N1 . ' ' . $N2,
                 'T2' => $N0,
                 'DJ1' => $D1_JOUR,
                 'DM1' => $D1_MOIS,
@@ -565,7 +566,7 @@ foreach ($pdfs as $pdf) {
                 'T4' => $NA,
                 'T5' => $D4,
                 'T6' => $PRO,
-                'T8' => $CO_N1 . '' . $CO_N2,
+                'T8' => $CO_N1 . ' ' . $CO_N2,
                 'T9' => $CO_N0,
                 'DJ2' => $CO_D1_JOUR,
                 'DM2' => $CO_D1_MOIS,
@@ -582,11 +583,11 @@ foreach ($pdfs as $pdf) {
                 'ACF_DATE_NAISSANCE' => $D1,
                 'ACF_LIEU_NAISSANCE' => $D2,
                 'ACF_PAYS_NAISSANCE' => $D4,
-                'ACF_ADRESSE' => $A1.' '.$A2.' '.$A3,
+                'ACF_ADRESSE' => $A1 . ' ' . $A2 . ' ' . $A3,
                 'ACF_PAYS' => $D4,
                 'ACF_NUM_FISCAL' => $NF,
                 'DATE' => (new DateTime())->format('d/m/Y'),
-                'SEPA_NOM' => $N1.' '.$N2,
+                'SEPA_NOM' => $N1 . ' ' . $N2,
                 'SEPA_ADRESSE' => $A1,
                 'SEPA_CP' => $A2,
                 'SEPA_VILLE' => $A3,
@@ -614,7 +615,7 @@ foreach ($pdfs as $pdf) {
                 'M_DATE_NAISSANCE' => $D1_MOIS,
                 'A_DATE_NAISSANCE' => $D1_ANNEE,
                 'DEP_NAISSANCE' => $D3,
-                'VILLE_NAISSANCE' => $D2.' '.$D4,
+                'VILLE_NAISSANCE' => $D2 . ' ' . $D4,
                 'NAT' => $NA,
                 'EMAIL' => $M1,
                 'CO_NOM' => $CO_N1,
@@ -628,11 +629,11 @@ foreach ($pdfs as $pdf) {
                 'CO_M_DATE_NAISSANCE' => $CO_D1_MOIS,
                 'CO_A_DATE_NAISSANCE' => $CO_D1_ANNEE,
                 'CO_DEP_NAISSANCE' => $CO_D3,
-                'CO_VILLE_NAISSANCE' => $CO_D2.' '.$CO_D4,
+                'CO_VILLE_NAISSANCE' => $CO_D2 . ' ' . $CO_D4,
                 'CO_NAT' => $CO_NA,
                 'CO_EMAIL' => $CO_M1,
                 'LE' => (new DateTime())->format('d/m/Y'),
-                'T1' => $N1 . '' . $N2,
+                'T1' => $N1 . ' ' . $N2,
                 'T2' => $N0,
                 'DJ1' => $D1_JOUR,
                 'DM1' => $D1_MOIS,
@@ -642,7 +643,7 @@ foreach ($pdfs as $pdf) {
                 'T4' => $NA,
                 'T5' => $D4,
                 'T6' => $PRO,
-                'T8' => $CO_N1 . '' . $CO_N2,
+                'T8' => $CO_N1 . ' ' . $CO_N2,
                 'T9' => $CO_N0,
                 'DJ2' => $CO_D1_JOUR,
                 'DM2' => $CO_D1_MOIS,
@@ -664,32 +665,34 @@ foreach ($pdfs as $pdf) {
                 'CO_ACF_DATE_NAISSANCE' => $CO_D1,
                 'ACF_LIEU_NAISSANCE' => $D2,
                 'ACF_PAYS_NAISSANCE' => $D4,
-                'ACF_ADRESSE' => $A1.' '.$A2.' '.$A3,
+                'ACF_ADRESSE' => $A1 . ' ' . $A2 . ' ' . $A3,
                 'ACF_PAYS' => $D4,
                 'ACF_NUM_FISCAL' => $NF,
                 'AS_NOM' => $N1,
-                'AS_PRENOM' =>$N2,
+                'AS_PRENOM' => $N2,
                 'CO_AS_NOM' => $CO_N1,
-                'CO_AS_PRENOM' =>$CO_N2,
+                'CO_AS_PRENOM' => $CO_N2,
                 'FDC_NOM' => $N1,
-                'FDC_PRENOM' =>$N2,
+                'FDC_PRENOM' => $N2,
                 'FDC_DATE' => (new DateTime())->format('d/m/Y'),
             ];
             break;
     }
-    $pdf = new FPDM('../' . $pdf);
-    $pdf->Load($fields, true); // second parameter: false if field values are in ISO-8859-1, true if UTF-8
-    $pdf->Merge();
-	if(count($pdfs) > 1){
-$zip->addFromString($pdf,  $pdf->Output("s"));
-	}else{
-    $pdf->Output();
-	die();
-		}
+    $pdfm = new FPDM('../' . $pdf);
+    $pdfm->Load($fields, true); // second parameter: false if field values are in ISO-8859-1, true if UTF-8
+    $pdfm->Merge();
+    if (count($pdfs) > 1) {
+        $zip->addFromString($pdf, $pdfm->Output("S"));
+    } else {
+        $pdfm->Output();
+        die();
+    }
 }
-        $zip->close();
-		header('Content-type: application/octet-stream');
-		header('Content-Disposition: attachment; filename=doc.zip');
-		header('Content-Transfer-Encoding: binary');
-        echo (file_get_contents($tmp_file));
-
+$zip->close();
+rename($tmp_file,'doc.zip');
+header("Content-type: application/zip");
+header("Content-Disposition: attachment; filename=doc.zip");
+header("Content-length: " . filesize("doc.zip"));
+header("Pragma: no-cache");
+header("Expires: 0");
+readfile("doc.zip");

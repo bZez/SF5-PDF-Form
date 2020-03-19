@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1291464-b33b-4271-87c8-6b74ae06bb51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-PHYSIQUE-2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/generate/SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-MORALE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/generate/SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-PHYSIQUE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/generate/doc.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/generate/tmp/5C5D.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/generate/tmp/A79B.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/generate/tmp/BE6.tmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/PRIMONIAL-TARGET+.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/PRIMONIAL-TARGET+.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/PRIMONIAL-TARGET.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-PHYSIQUE.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/SCPI-PRIMONIAL-PATRIMMO-COMMERCE-PERSONNE-PHYSIQUE.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/generate/process.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/generate/process.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/global/tab.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/global/tab.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/GlobalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/GlobalController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/global/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/global/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +230,7 @@
       <workItem from="1580978193340" duration="29009000" />
       <workItem from="1582889918259" duration="1391000" />
       <workItem from="1584008221672" duration="14176000" />
-      <workItem from="1584103357647" duration="16403000" />
+      <workItem from="1584103357647" duration="24623000" />
     </task>
     <servers />
   </component>
@@ -230,10 +241,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="601" y="286" width="700" height="530" key="recent.locations.popup" timestamp="1584614204066">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1584632356937">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="601" y="286" width="700" height="530" key="recent.locations.popup/0.40.1920.1040/1920.40.1920.1160@0.40.1920.1040" timestamp="1584614204066" />
+    <state width="498" height="446" key="SwitcherDM/0.40.1920.1040/1920.40.1920.1160@0.40.1920.1040" timestamp="1584632356937" />
+    <state x="601" y="286" width="700" height="530" key="recent.locations.popup" timestamp="1584628261050">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="601" y="286" width="700" height="530" key="recent.locations.popup/0.40.1920.1040/1920.40.1920.1160@0.40.1920.1040" timestamp="1584628261050" />
     <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1584623545554">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
