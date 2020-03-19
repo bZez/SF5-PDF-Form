@@ -8,9 +8,8 @@ $fields = [];
 //SOUSCRIPTEUR
 $A1 = $A2 = $A3 = $A4 = $R1 = $R2 = $NF = $N0 = $N1 = $N2 = $D1 = $D2 = $D3 = $D4 = $D5 = $M1 = $NA = $PRO = $D1_JOUR = $D1_MOIS = $D1_ANNEE = $CO_D1_JOUR = $CO_D1_MOIS = $CO_D1_ANNEE = '';
 //CO-SOUSCRIPTEUR
-$CO_N0 = $CO_N1 = $CO_N2 = $CO_D1 = $CO_D2 = $CO_D3 = $CO_D4 = $CO_NA = $CO_PRO = $CO_A1 = $CO_A2 = $CO_A3 = $CO_A4 = $CGP = $J = $V = $MB = $CO_NF = $CO_M1 = $CO_R1 = $CO_R2 = '';
-$MO_N0 = $MO_N1 = $MO_N2 = $MO_D1 = $MO_D2 = $MO_D3 = $MO_D4 = $MO_NA = $MO_PRO = $MO_A1 = $MO_A2 = $MO_A3 = $MO_A4 = $CGP = $J = $V = $MB = $MO_NF = $MO_M1 = $MO_R1 = $MO_R2 = '';
-//PHY
+$CO_N0 = $CO_N1 = $CO_N2 = $CO_D1 = $CO_D2 = $CO_D3 = $CO_D4 = $CO_NA = $CO_PRO = $CO_A1 = $CO_A2 = $CO_A3 = $CO_A4 = $CGP = $J = $V = $MB = $CO_NF = $CO_M1 = $CO_R1 = $CO_R2 = $MO_N0 = $MO_N1 = $MO_N2 = $MO_D1 = $MO_D2 = $MO_D3 = $MO_D4 = $MO_NA = $MO_PRO = $MO_A1 = $MO_A2 = $MO_A3 = $MO_A4 = $CGP = $J = $V = $MB = $MO_NF = $MO_M1 = $MO_R1 = $MO_R2 = '';
+//PHYSIQUE
 if (isset($_POST['s_physique'])) {
     $phy = $_POST['s_physique'];
     $N1 = $phy['pp_name'];
