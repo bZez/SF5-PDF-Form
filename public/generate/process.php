@@ -198,12 +198,12 @@ if (isset($_POST['co_moral'])) {
 };
 //BOUCLE PDF
 $pdfs = $_SESSION["_sf2_attributes"]['pdfs'];
-if (count($pdfs) > 1) {
+/*if (count($pdfs) > 1) {
     $zip = new ZipArchive();
     $tmp_file = tempnam('tmp', '');
     $zip->open($tmp_file, ZipArchive::CREATE);
 
-}
+}*/
 
 foreach ($pdfs as $pdf) {
     switch ($pdf) {
@@ -681,17 +681,53 @@ foreach ($pdfs as $pdf) {
     $pdfm->Load($fields, true); // second parameter: false if field values are in ISO-8859-1, true if UTF-8
     $pdfm->Merge();
     if (count($pdfs) > 1) {
-        $zip->addFromString($pdf, $pdfm->Output("S"));
+        $name = uniqid() . '_' . $pdf;
+        file_put_contents('tmp/' . $name, $pdfm->Output('S'));
+        echo '<iframe src="dl.php?name=' . $name . '" hidden></iframe>';
     } else {
-        $pdfm->Output();
+        $pdfm->Output('D', $pdf);
         die();
     }
 }
-$zip->close();
-rename($tmp_file,'doc.zip');
-header("Content-type: application/zip");
-header("Content-Disposition: attachment; filename=doc.zip");
-header("Content-length: " . filesize("doc.zip"));
-header("Pragma: no-cache");
-header("Expires: 0");
-readfile("doc.zip");
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>L&A Finance</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <base href="//<?php echo $_SERVER['SERVER_NAME']; ?>">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row border-bottom">
+        <div class="container">
+            <div class="row align-items-center p-2">
+                <div class="col-6">
+                    <img src="../img/logo.png" alt="" width="85px">
+                </div>
+                <div class="col-6 text-right">
+                    <a href="/process" class="btn btn-secondary rounded-0">Générer d'autres PDF</a>
+                    <a href="/logout" class="btn btn-secondary rounded-0">Déconnexion</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container" style="height: calc(100vh - 96px)">
+    <div class="row h-100 align-items-center">
+        <div class="col-12 offset-0 col-md-6 offset-md-3 shadow p-3">
+            <img src="../img/logo.png" alt="" width="100%">
+            <h3 class="text-muted text-center">Documents générés avec succès</h3>
+        </div>
+    </div>
+</div>
+<div class="fixed-bottom bg-dark text-center p-3 text-white">
+    © 2020 Copyright <a href="https://la-finance.fr">L&A Finance</a>
+</div>
+<script src="../js/jquery-3.4.1.slim.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
+

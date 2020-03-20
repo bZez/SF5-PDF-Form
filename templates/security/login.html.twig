@@ -16,7 +16,7 @@
                        You are logged in as {{ app.user.username }}, <a href="{{ path('app_logout') }}">Logout</a>
                    </div>
                {% endif %}
-               <img src="https://souscriptions.la-finance.fr/assets/img/logonew.png" alt="" width="85px">
+               <img src="{{asset('img/logo.png')}}" alt="" width="85px">
                <hr>
 
                <input type="email" value="{{ last_username }}" name="email" id="inputEmail" class="form-control" required autofocus placeholder="Adresse email...">
